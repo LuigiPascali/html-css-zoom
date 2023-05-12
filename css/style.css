@@ -7,3 +7,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+    GENERAL
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    background-color: #000000;
+}
+
+.flex {
+    display: flex;
+}
+
+.bg-grey {
+    background-color: #808080;
+}
+
+
+/* 
+    HEADER
+*/
+
+.speaker {
+    position: fixed;
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 1;
+    background-color: black;
+}
+.speaker a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+/* 
+    MAIN
+*/
+
+/* 
+    FOOTER
+*/
